@@ -19,7 +19,7 @@ module "ec2_isolated" {
     Project     = "CCA2324"
   }
 }
-/*
+
 module "ec2-test" {
   source = "terraform-aws-modules/ec2-instance/aws"
 
@@ -33,4 +33,3 @@ module "ec2-test" {
   subnet_id                   = module.vpc_egress.public_subnets[0]
   associate_public_ip_address = true
 }
-*/

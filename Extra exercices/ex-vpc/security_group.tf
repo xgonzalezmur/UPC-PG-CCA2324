@@ -22,7 +22,7 @@ module "private_sg" {
     Project     = "CCA2324"
   }
 }
-/*
+
 module "test_sg" {
   source = "terraform-aws-modules/security-group/aws"
 
@@ -40,4 +40,3 @@ module "test_sg" {
     }
   ]
 }
-*/
